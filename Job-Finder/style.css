@@ -1,0 +1,203 @@
+.{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ====================================Nav Bar section====================================== */
+.navbar-brand {
+    font-size: 2rem;
+    color: red;
+}
+
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-link {
+    color: rgb(10,10,94);
+}
+
+.nav-link:hover {
+    color: red;
+    transition: 0.3s;
+}
+
+.nav-item {
+    color: rgb(7,7,78);
+    font-weight: 500;
+    padding-left: 35px;
+}
+
+/* ====================================home page section====================================== */
+
+.main {
+    background: url(./images/main1copy.jpg)no-repeat;
+    background-size: cover;
+    min-height: 95vh;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    color: rgb(7,7,78);
+}
+
+.main input {
+    height: 39px;
+    width: 50%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+/* ========================================Category Section================================= */
+
+.red {
+    color: red;
+}
+
+.ceta h1 {
+    font-size: 3.5rem;
+    color: rgb(red, green, blue);
+}
+
+.ceta .card:hover {
+    color: red;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 13px 8px 5px 1px rgba(0,0,0,0.48);
+-webkit-box-shadow: 13px 8px 5px 1px rgba(0,0,0,0.48);
+-moz-box-shadow: 13px 8px 5px 1px rgba(0,0,0,0.48);
+}
+
+.resume{
+    background:linear-gradient(rgba(4,11,75,0.719),rgba(4,26,100,0.73)), url(./images/woman.jpg)no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.resume h1{
+    font-size: 3.8rem;
+}
+
+.job h1{
+    font-size: 3.5rem;
+    color: rgb(7,7,78);
+}
+
+.btn4{
+    height: 10%;
+    width: 15%;
+    outline: none;
+    border: none;
+    background: rgb(243, 73, 73);
+    color: white;
+    transition: all 0.4s;
+}
+
+.btn4:hover{
+    background: rgb(214, 111, 11);
+    color: white;
+    transition: all 0.4s;
+    border: none;
+    outline: none;
+}
+
+.apply{
+    background: url(./images/cool-background.png)no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.apply .card{
+    background-color: rgba(4, 26, 100, 0.801);
+    color: white;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+.circle img{
+    border-radius: 50%;
+}
+
+.avatar{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+.perac{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.btn5{
+    height: 90%;
+    width: 20%;
+    outline: none;
+    border: none;
+    background: rgb(243,73,73);
+    border-radius: 5%;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.btn5:hover{
+    background: rgb(214, 11, 11);
+    transition: all 0.4s;
+}
+
+.footer{
+    background: #121626;
+    color: white;
+}
+
+.footer p{
+    margin: 0;
+    color: #69696b;
+}
+
+.footer input{
+    height: 45px;
+    width: 150px;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.footer button{
+    height: 47px;
+    width: 40px;
+    border: none;
+    outline: none;
+    margin-left: -12px;
+    border-top: 1px solid #ff2962;
+    background: #ff2962;
+    color: #fff;
+    margin-top: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.link{
+    color: #6b6b72;
+    transition: all 0.4s;
+}
+
+.link:hover{
+    color: #ff2962;
+    padding-left: 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
